@@ -518,6 +518,7 @@ class FitnessActivity(Resource):
                   'path': ArrayPath,
                   'images': ArrayImages,
                   'source': None,
+                  'entry_mode': None,
                   'activity': None,
                   'comments': PropResourceLink('CommentThread'),
                   'previous': PropResourceLink('FitnessActivity'),
