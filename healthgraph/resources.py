@@ -504,6 +504,7 @@ class FitnessActivity(Resource):
                   'secondary_type': None,
                   'equipment': None,
                   'start_time': parse_datetime,
+                  'utc_offset': None,
                   'total_distance': parse_distance,
                   'distance': ArrayDistance,
                   'duration': None,
